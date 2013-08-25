@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Using the Ajax Function</title>
+    <style>
+    #content {
+    	padding: 5pt;
+    	border: 2px dashed lightgray;
+    }
+    </style>
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#content").load("tesdata.txt");
+		});
+
+  </script>
+</head>
+<body>
+<h1>Using the basic Ajax function</h1>
+<p id="content"> </p>
+</body>
+</html>

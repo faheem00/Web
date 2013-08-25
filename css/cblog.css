@@ -1,0 +1,133 @@
+/* cblog.css for blog page*/
+
+
+
+/* new of my custom design */
+
+@import url(http://fonts.googleapis.com/css?family=Kreon:700);
+
+
+body {
+margin-top: 40px;
+}
+
+.row {
+margin-left:0px;
+}
+
+.img-div {
+padding-top:10px;
+padding-bottom:10px;
+font-family:Arial;
+font-size:2em;
+color: rgb(60, 79, 92);
+}
+
+    .img-div a img {
+    opacity:0.6;
+    }
+        .img-div a img:hover {
+        opacity:1;
+        }
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    background-color: #bbddda;
+    padding: 4px 4px 4px 4px;
+    font-size: 13px;
+    color: #555555;
+    border: 1px inset #ccc;
+}
+
+.nav-list li a:hover {
+border-right: 2px solid skyblue;
+}
+
+.nav-list li a:active {
+    text-shadow: 0.1px 0.1px 1px rgb(67, 156, 173);
+}
+
+.nav-header h4{
+    font-family: 'Kreon', sans-serif;
+}
+
+/*slider modification*/
+
+#jquery-slider {
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a,
+ul.bjqs-controls.v-centered li.bjqs-prev a
+{
+    text-decoration:none;
+    font-family: Arial;
+    color: #7C6161;
+	font-size: 3em;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a:hover,
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover
+{
+	color: rgb(157, 147, 194);
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a:active,
+ul.bjqs-controls.v-centered li.bjqs-prev a:active
+{
+	color: black
+}
+
+
+ol.bjqs-markers li a {
+    display: none;
+}
+
+
+.bjqs li .span2 {
+font-size:12px;
+}
+
+.bjqs > li {
+    background-color:#bbddda;
+    border-radius:5px 5px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+    .bjqs > li > .span12 {
+        max-width: 650px;
+        margin-right: 25px;
+    }
+
+.blog-teaser-container {
+    margin-top:40px;
+    background-color:#e3e9ed;
+}
+
+.blog-teaser {
+    background-color:#C5ADC2;
+    border-radius:5px 5px;
+    padding:30px 20px;
+}
+.blog-teaser + div {
+    margin-bottom:40px;
+}

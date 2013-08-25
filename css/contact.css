@@ -1,0 +1,63 @@
+/* cblog.css for blog page*/
+
+
+
+/* new of my custom design */
+
+body {
+margin-top: 40px;
+}
+
+.row {
+margin-left:0px;
+}
+
+    .row .span3 img{
+    margin-left:20%;
+    margin-right:20%;
+    opacity:0.6;
+    cursor:pointer;
+    }
+        .row .span3 img:hover {
+        opacity:1.0;
+        }
+
+.img-div {
+padding-top:10px;
+padding-bottom:10px;
+font-family:Arial;
+font-size:1.4em;
+color: rgb(60, 79, 92);
+}
+
+    .img-div a img {
+    opacity:0.6;
+    }
+        .img-div a img:hover {
+        opacity:1;
+        }
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    background-color: #bbddda;
+    padding: 4px 4px 4px 4px;
+    font-size: 13px;
+    color: #555555;
+    border: 1px inset #ccc;
+}

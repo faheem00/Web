@@ -1,0 +1,60 @@
+<body data-spy="scroll" data-target="#navbar">
+    <script type="text/javascript">
+    $('#navbar').scrollspy();
+    </script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<style type="text/css">
+@import url(http://twitter.github.com/bootstrap/assets/css/bootstrap.css);
+.box{
+    margin: 20px; padding: 15px;
+    background: #eee;
+    height: 500px;
+}
+#navbar{
+    position: fixed;
+    bottom: 0; left: 20px;
+    width: 100%;
+    background: #fff;
+}
+.nav li a{
+    float: left;
+    width: 80px;
+    padding: 15px 0;
+}
+.nav li a:hover{
+    color: #f33 !important;
+    background: none;
+}
+.nav li.active a{
+    color: #f55;
+    text-decoration: underline;
+}
+
+
+</style>
+    <div id="TryToPutDataSpyHere">
+        <div id="post1" class="box">
+            <h1>Post 1</h1>
+            <p> Scroll Down↓</p>
+        </div>
+        <div id="post2" class="box"><h1>Post 2</h1></div>
+        <div id="post3" class="box"><h1>Post 3</h1></div>
+    </div>
+    
+    <div id="navbar">
+        <ul class="nav">
+            <li><a href="#post1">Post 1</a></li>
+            <li><a href="#post2">Post 2</a></li>
+            <li><a href="#post3">Post 3</a></li>
+        </ul>
+    </div>
+    
+    <!--<a href="#someotherplace">Some Other link</a>-->
+    <div id="someotherplace">
+        <p>
+Some Other Place            
+        </p>                    
+    </div>
+    
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
+</body>
